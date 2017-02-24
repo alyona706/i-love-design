@@ -1,0 +1,119 @@
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+     	-moz-box-sizing: border-box;
+         	 box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'SegoeUI';
+  src: url('../fonts/SegoeUI/SegoeUI.eot?#iefix') format('../fonts/SegoeUI/embedded-opentype'),  url('../fonts/SegoeUI/SegoeUI.woff') format('../fonts/SegoeUI/woff'), url('../fonts/SegoeUI/SegoeUI.ttf')  format('../fonts/SegoeUI/truetype'), url('../fonts/SegoeUI/SegoeUI.svg#SegoeUI') format('../fonts/SegoeUI/svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SegoeUI';
+  src: url('../fonts/SegoeUI-Bold/SegoeUI-Bold.eot?#iefix') format('../fonts/SegoeUI-Bold/embedded-opentype'),  url('../fonts/SegoeUI-Bold/SegoeUI-Bold.woff') format('../fonts/SegoeUI-Bold/woff'), url('../fonts/SegoeUI-Bold/SegoeUI-Bold.ttf')  format('../fonts/SegoeUI-Bold/truetype'), url('../fonts/SegoeUI-Bold/SegoeUI-Bold.svg#SegoeUI-Bold') format('../fonts/SegoeUI-Bold/svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+	font-family: SegoeUI, sans-serif;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 1.6;
+	color: #464b4f;
+}
+
+.banner {
+	background-color: #23232E;
+	text-align: center;
+}
+
+.header {
+	padding: 80px 0 92px;
+}
+
+.banner-content {
+	color: #FFF;
+	padding: 93px 0 53px;
+}
+
+.site-title {
+	font-family: sans-serif;
+	font-weight: 700;
+	font-size: 80px;
+	text-transform: uppercase;
+	line-height: 1;
+	margin: 0 0 30px;
+}
+
+.site-description {
+	font-size: 18px;
+	width: 458px;
+	margin: 30px auto 90px;
+}
+
+.scroll {
+	display: inline-block;
+	height: 45px;
+	width: 45px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	transition: opacity .3s ease-in;
+}
+
+.scroll:hover {
+	opacity: 0.4;
+}
+
+.scroll img {
+	display: inline-block;
+	padding-bottom: 6px;
+}
+
+.site-content {
+	background-image: url(../images/bg.jpg);
+}
+ 
+.text {
+	text-align: center;
+	padding: 90px 30px 50px;
+	width: 950px;
+	margin: 0 auto;
+}
+
+.what-i-do {
+	width: 950px;
+	margin: 0 auto;
+}
+
+.section-title {
+	font-weight: 700;
+	font-size: 80px;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 1;
+}
+
+.post {
+	display: inline-block;
+	width: 300px;
+	font-size: 0;
+	padding: 10px 5px 15px 0;
+	vertical-align: top;
+}
+
+.post-title {
+	font-size: 18px;
+	color: #464B4F;
+	text-transform: uppercase;
+}
+
+.post-contet {
+	font-size: 18px;
+	color: #888a8b;	
+}
